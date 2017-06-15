@@ -1,3 +1,5 @@
+package pascal;// Generated from D:/home/compilers/src/main/resources\pascal.g4 by ANTLR 4.7
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -82,7 +84,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitBlock(PascalParser.BlockContext ctx) {
-        System.out.println("visitBlock");
+    //    System.out.println("visitBlock");
         return visitChildren(ctx);
     }
 
@@ -95,7 +97,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitUsesUnitsPart(PascalParser.UsesUnitsPartContext ctx) {
-        System.out.println("visitUsesUnitsPart");
+    //    System.out.println("visitUsesUnitsPart");
         return visitChildren(ctx);
     }
 
@@ -108,7 +110,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitLabelDeclarationPart(PascalParser.LabelDeclarationPartContext ctx) {
-        System.out.println("visitLabelDeclarationPart");
+    //    System.out.println("visitLabelDeclarationPart");
         return visitChildren(ctx);
     }
 
@@ -121,7 +123,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitLabel(PascalParser.LabelContext ctx) {
-        System.out.println("visitLabel");
+    //    System.out.println("visitLabel");
         return visitChildren(ctx);
     }
 
@@ -134,7 +136,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitConstantDefinitionPart(PascalParser.ConstantDefinitionPartContext ctx) {
-        System.out.println("visitConstantDefinitionPart");
+    //    System.out.println("visitConstantDefinitionPart");
         return visitChildren(ctx);
     }
 
@@ -147,7 +149,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitConstantDefinition(PascalParser.ConstantDefinitionContext ctx) {
-        System.out.println("visitConstantDefinition");
+    //    System.out.println("visitConstantDefinition");
         return visitChildren(ctx);
     }
 
@@ -160,7 +162,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitConstantChr(PascalParser.ConstantChrContext ctx) {
-        System.out.println("visitConstantChr");
+    //    System.out.println("visitConstantChr");
         return visitChildren(ctx);
     }
 
@@ -173,7 +175,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitConstant(PascalParser.ConstantContext ctx) {
-        System.out.println("visitConstant");
+    //    System.out.println("visitConstant");
         return visitChildren(ctx);
     }
 
@@ -213,7 +215,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitUnsignedReal(PascalParser.UnsignedRealContext ctx) {
-        System.out.println("visitUnsignedReal");
+    //    System.out.println("visitUnsignedReal");
         return visitChildren(ctx);
     }
 
@@ -226,7 +228,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitSign(PascalParser.SignContext ctx) {
-        System.out.println("visitSign");
+    //    System.out.println("visitSign");
         return visitChildren(ctx);
     }
 
@@ -239,7 +241,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitString(PascalParser.StringContext ctx) {
-        System.out.println("visitString");
+    //    System.out.println("visitString");
         return visitChildren(ctx);
     }
 
@@ -252,7 +254,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitTypeDefinitionPart(PascalParser.TypeDefinitionPartContext ctx) {
-        System.out.println("visitTypeDefinitionPart");
+    //    System.out.println("visitTypeDefinitionPart");
         return visitChildren(ctx);
     }
 
@@ -265,7 +267,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitTypeDefinition(PascalParser.TypeDefinitionContext ctx) {
-        System.out.println("visitTypeDefinition");
+    //    System.out.println("visitTypeDefinition");
         return visitChildren(ctx);
     }
 
@@ -278,7 +280,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFunctionType(PascalParser.FunctionTypeContext ctx) {
-        System.out.println("visitFunctionType");
+    //    System.out.println("visitFunctionType");
         return visitChildren(ctx);
     }
 
@@ -291,7 +293,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitProcedureType(PascalParser.ProcedureTypeContext ctx) {
-        System.out.println("visitProcedureType");
+     //   System.out.println("visitProcedureType");
         return visitChildren(ctx);
     }
 
@@ -304,7 +306,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitType(PascalParser.TypeContext ctx) {
-        System.out.println("visitType");
+     //   System.out.println("visitType");
         return visitChildren(ctx);
     }
 
@@ -317,7 +319,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitSimpleType(PascalParser.SimpleTypeContext ctx) {
-        System.out.println("visitSimpleType");
+    //    System.out.println("visitSimpleType");
         return visitChildren(ctx);
     }
 
@@ -330,7 +332,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitScalarType(PascalParser.ScalarTypeContext ctx) {
-        System.out.println("visitScalarType");
+    //    System.out.println("visitScalarType");
         return visitChildren(ctx);
     }
 
@@ -343,7 +345,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitSubrangeType(PascalParser.SubrangeTypeContext ctx) {
-        System.out.println("visitSubrangeType");
+    //    System.out.println("visitSubrangeType");
         return visitChildren(ctx);
     }
 
@@ -356,7 +358,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitTypeIdentifier(PascalParser.TypeIdentifierContext ctx) {
-        System.out.println("visitTypeIdentifier");
+    //    System.out.println("visitTypeIdentifier");
         return visitChildren(ctx);
     }
 
@@ -369,7 +371,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitStructuredType(PascalParser.StructuredTypeContext ctx) {
-        System.out.println("visitStructuredType");
+    //    System.out.println("visitStructuredType");
         return visitChildren(ctx);
     }
 
@@ -382,7 +384,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitUnpackedStructuredType(PascalParser.UnpackedStructuredTypeContext ctx) {
-        System.out.println("visitUnpackedStructuredType");
+    //    System.out.println("visitUnpackedStructuredType");
         return visitChildren(ctx);
     }
 
@@ -395,7 +397,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitStringtype(PascalParser.StringtypeContext ctx) {
-        System.out.println("visitStringtype");
+    //    System.out.println("visitStringtype");
         return visitChildren(ctx);
     }
 
@@ -408,7 +410,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitArrayType(PascalParser.ArrayTypeContext ctx) {
-        System.out.println("visitArrayType");
+    //    System.out.println("visitArrayType");
         return visitChildren(ctx);
     }
 
@@ -421,7 +423,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitTypeList(PascalParser.TypeListContext ctx) {
-        System.out.println("visitTypeList");
+    //    System.out.println("visitTypeList");
         return visitChildren(ctx);
     }
 
@@ -434,7 +436,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitIndexType(PascalParser.IndexTypeContext ctx) {
-        System.out.println("visitIndexType");
+     //   System.out.println("visitIndexType");
         return visitChildren(ctx);
     }
 
@@ -447,7 +449,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitComponentType(PascalParser.ComponentTypeContext ctx) {
-        System.out.println("visitComponentType");
+    //    System.out.println("visitComponentType");
         return visitChildren(ctx);
     }
 
@@ -460,7 +462,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitRecordType(PascalParser.RecordTypeContext ctx) {
-        System.out.println("visitRecordType");
+    //    System.out.println("visitRecordType");
         return visitChildren(ctx);
     }
 
@@ -473,7 +475,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFieldList(PascalParser.FieldListContext ctx) {
-        System.out.println("visitFieldList");
+    //    System.out.println("visitFieldList");
         return visitChildren(ctx);
     }
 
@@ -486,7 +488,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFixedPart(PascalParser.FixedPartContext ctx) {
-        System.out.println("visitFixedPart");
+    //    System.out.println("visitFixedPart");
         return visitChildren(ctx);
     }
 
@@ -499,7 +501,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitRecordSection(PascalParser.RecordSectionContext ctx) {
-        System.out.println("visitRecordSection");
+     //   System.out.println("visitRecordSection");
         return visitChildren(ctx);
     }
 
@@ -512,7 +514,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitVariantPart(PascalParser.VariantPartContext ctx) {
-        System.out.println("visitVariantPart");
+    //    System.out.println("visitVariantPart");
         return visitChildren(ctx);
     }
 
@@ -525,7 +527,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitTag(PascalParser.TagContext ctx) {
-        System.out.println("visitTag");
+    //    System.out.println("visitTag");
         return visitChildren(ctx);
     }
 
@@ -538,7 +540,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitVariant(PascalParser.VariantContext ctx) {
-        System.out.println("visitVariant");
+    //    System.out.println("visitVariant");
         return visitChildren(ctx);
     }
 
@@ -551,7 +553,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitSetType(PascalParser.SetTypeContext ctx) {
-        System.out.println("visitSetType");
+    //    System.out.println("visitSetType");
         return visitChildren(ctx);
     }
 
@@ -564,7 +566,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitBaseType(PascalParser.BaseTypeContext ctx) {
-        System.out.println("visitBaseType");
+    //    System.out.println("visitBaseType");
         return visitChildren(ctx);
     }
 
@@ -577,7 +579,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFileType(PascalParser.FileTypeContext ctx) {
-        System.out.println("visitFileType");
+    //    System.out.println("visitFileType");
         return visitChildren(ctx);
     }
 
@@ -590,7 +592,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitPointerType(PascalParser.PointerTypeContext ctx) {
-        System.out.println("visitPointerType");
+    //    System.out.println("visitPointerType");
         return visitChildren(ctx);
     }
 
@@ -603,7 +605,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitVariableDeclarationPart(PascalParser.VariableDeclarationPartContext ctx) {
-        System.out.println("visitVariableDeclarationPart");
+     //   System.out.println("visitVariableDeclarationPart");
         return visitChildren(ctx);
     }
 
@@ -616,9 +618,9 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitVariableDeclaration(PascalParser.VariableDeclarationContext ctx) {
-        System.out.println("visitVariableDeclaration");
-        System.out.println(ctx.getChild(0).getText());
-        System.out.println(ctx.getChild(2).getText());
+    //    System.out.println("visitVariableDeclaration");
+     //   System.out.println(ctx.getChild(0).getText());
+    //    System.out.println(ctx.getChild(2).getText());
         return visitChildren(ctx);
     }
 
@@ -631,7 +633,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitProcedureAndFunctionDeclarationPart(PascalParser.ProcedureAndFunctionDeclarationPartContext ctx) {
-        System.out.println("visitProcedureAndFunctionDeclarationPart");
+    //    System.out.println("visitProcedureAndFunctionDeclarationPart");
         return visitChildren(ctx);
     }
 
@@ -644,7 +646,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitProcedureOrFunctionDeclaration(PascalParser.ProcedureOrFunctionDeclarationContext ctx) {
-        System.out.println("visitProcedureOrFunctionDeclaration");
+    //    System.out.println("visitProcedureOrFunctionDeclaration");
         return visitChildren(ctx);
     }
 
@@ -657,7 +659,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitProcedureDeclaration(PascalParser.ProcedureDeclarationContext ctx) {
-        System.out.println("visitProcedureDeclaration");
+    //    System.out.println("visitProcedureDeclaration");
         return visitChildren(ctx);
     }
 
@@ -670,7 +672,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFormalParameterList(PascalParser.FormalParameterListContext ctx) {
-        System.out.println("visitFormalParameterList");
+    //    System.out.println("visitFormalParameterList");
         return visitChildren(ctx);
     }
 
@@ -683,7 +685,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFormalParameterSection(PascalParser.FormalParameterSectionContext ctx) {
-        System.out.println("visitFormalParameterSection");
+    //    System.out.println("visitFormalParameterSection");
         return visitChildren(ctx);
     }
 
@@ -696,7 +698,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitParameterGroup(PascalParser.ParameterGroupContext ctx) {
-        System.out.println("visitParameterGroup");
+    //    System.out.println("visitParameterGroup");
         return visitChildren(ctx);
     }
 
@@ -709,7 +711,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitIdentifierList(PascalParser.IdentifierListContext ctx) {
-        System.out.println("visitIdentifierList");
+    //    System.out.println("visitIdentifierList");
         return visitChildren(ctx);
     }
 
@@ -722,7 +724,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitConstList(PascalParser.ConstListContext ctx) {
-        System.out.println("visitConstList");
+    //    System.out.println("visitConstList");
         return visitChildren(ctx);
     }
 
@@ -735,7 +737,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFunctionDeclaration(PascalParser.FunctionDeclarationContext ctx) {
-        System.out.println("visitFunctionDeclaration");
+    //    System.out.println("visitFunctionDeclaration");
         return visitChildren(ctx);
     }
 
@@ -748,7 +750,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitResultType(PascalParser.ResultTypeContext ctx) {
-        System.out.println("visitResultType");
+    //    System.out.println("visitResultType");
         return visitChildren(ctx);
     }
 
@@ -761,8 +763,8 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitStatement(PascalParser.StatementContext ctx) {
-        System.out.println("visitStatement");
-        System.out.println(ctx.getChild(0));
+    //    System.out.println("visitStatement");
+    //    System.out.println(ctx.getChild(0));
         return visitChildren(ctx);
     }
 
@@ -775,8 +777,8 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitUnlabelledStatement(PascalParser.UnlabelledStatementContext ctx) {
-        System.out.println("visitUnlabelledStatement");
-        System.out.println(ctx.getChild(0));
+    //    System.out.println("visitUnlabelledStatement");
+    //    System.out.println(ctx.getChild(0));
 
         return visitChildren(ctx);
     }
@@ -790,8 +792,8 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitSimpleStatement(PascalParser.SimpleStatementContext ctx) {
-        System.out.println("visitSimpleStatement");
-        System.out.println(ctx.getChild(0));
+    //    System.out.println("visitSimpleStatement");
+    //    System.out.println(ctx.getChild(0));
         return visitChildren(ctx);
     }
 
@@ -842,7 +844,14 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
         visit(ctx.getChild(0));
         for (int i = 1; i < (ctx.getChildCount() + 1) / 2; i++) {
             visit(ctx.getChild(i * 2));
-            lines.add(ctx.getChild(i * 2 - 1).getText());
+            String znak = ctx.getChild(i * 2 - 1).getText();
+            if (znak.equals("<")) {
+                lines.add("IF_ICMPGE");
+            } else if (znak.equals(">")) {
+                lines.add("IF_ICMPLE");
+            } else if (znak.equals("=")) {
+                lines.add("IF_ICMPNE");
+            }
         }
         return null;
     }
@@ -860,7 +869,12 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
         visit(ctx.getChild(0));
         for (int i = 1; i < (ctx.getChildCount() + 1) / 2; i++) {
             visit(ctx.getChild(i * 2));
-            lines.add(ctx.getChild(i * 2 - 1).getText());
+            String znak = ctx.getChild(i * 2 - 1).getText();
+            if (znak == "+") {
+                lines.add("IADD");
+            } else {
+                lines.add("ISUB");
+            }
         }
         return null;
     }
@@ -878,7 +892,12 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
         visit(ctx.getChild(0));
         for (int i = 1; i < (ctx.getChildCount() + 1) / 2; i++) {
             visit(ctx.getChild(i * 2));
-            lines.add(ctx.getChild(i * 2 - 1).getText());
+            String znak = ctx.getChild(i * 2 - 1).getText();
+            if (znak == "*") {
+                lines.add("IMUL");
+            } else {
+                lines.add("IDIV");
+            }
         }
         return null;
     }
@@ -937,7 +956,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFunctionDesignator(PascalParser.FunctionDesignatorContext ctx) {
-        System.out.println("visitFunctionDesignator");
+    //    System.out.println("visitFunctionDesignator");
         return visitChildren(ctx);
     }
 
@@ -950,7 +969,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitParameterList(PascalParser.ParameterListContext ctx) {
-        System.out.println("visitParameterList");
+    //    System.out.println("visitParameterList");
         return visitChildren(ctx);
     }
 
@@ -963,7 +982,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitSet(PascalParser.SetContext ctx) {
-        System.out.println("visitSet");
+    //    System.out.println("visitSet");
         return visitChildren(ctx);
     }
 
@@ -976,7 +995,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitElementList(PascalParser.ElementListContext ctx) {
-        System.out.println("visitElementList");
+    //    System.out.println("visitElementList");
         return visitChildren(ctx);
     }
 
@@ -989,7 +1008,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitElement(PascalParser.ElementContext ctx) {
-        System.out.println("visitElement");
+    //   System.out.println("visitElement");
         return visitChildren(ctx);
     }
 
@@ -1002,7 +1021,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitProcedureStatement(PascalParser.ProcedureStatementContext ctx) {
-        System.out.println("visitProcedureStatement");
+    //    System.out.println("visitProcedureStatement");
         return visitChildren(ctx);
     }
 
@@ -1015,7 +1034,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitActualParameter(PascalParser.ActualParameterContext ctx) {
-        System.out.println("visitActualParameter");
+    //    System.out.println("visitActualParameter");
         return visitChildren(ctx);
     }
 
@@ -1028,7 +1047,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitGotoStatement(PascalParser.GotoStatementContext ctx) {
-        System.out.println("visitGotoStatement");
+    //    System.out.println("visitGotoStatement");
         return visitChildren(ctx);
     }
 
@@ -1041,7 +1060,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitEmptyStatement(PascalParser.EmptyStatementContext ctx) {
-        System.out.println("visitEmptyStatement");
+    //    System.out.println("visitEmptyStatement");
         return visitChildren(ctx);
     }
 
@@ -1054,7 +1073,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitEmpty(PascalParser.EmptyContext ctx) {
-        System.out.println("visitEmpty");
+    //    System.out.println("visitEmpty");
         return visitChildren(ctx);
     }
 
@@ -1067,7 +1086,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitStructuredStatement(PascalParser.StructuredStatementContext ctx) {
-        System.out.println("visitStructuredStatement");
+    //    System.out.println("visitStructuredStatement");
         return visitChildren(ctx);
     }
 
@@ -1080,7 +1099,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitCompoundStatement(PascalParser.CompoundStatementContext ctx) {
-        System.out.println("visitCompoundStatement");
+    //    System.out.println("visitCompoundStatement");
 
         return visitChildren(ctx);
     }
@@ -1094,7 +1113,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitStatements(PascalParser.StatementsContext ctx) {
-        System.out.println("visitStatements");
+    //    System.out.println("visitStatements");
 
         return visitChildren(ctx);
     }
@@ -1108,7 +1127,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitConditionalStatement(PascalParser.ConditionalStatementContext ctx) {
-        System.out.println("visitConditionalStatement");
+    //    System.out.println("visitConditionalStatement");
         return visitChildren(ctx);
     }
 
@@ -1150,7 +1169,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitCaseStatement(PascalParser.CaseStatementContext ctx) {
-        System.out.println("visitCaseStatement");
+    //    System.out.println("visitCaseStatement");
         return visitChildren(ctx);
     }
 
@@ -1163,7 +1182,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitCaseListElement(PascalParser.CaseListElementContext ctx) {
-        System.out.println("visitCaseListElement");
+    //    System.out.println("visitCaseListElement");
         return visitChildren(ctx);
     }
 
@@ -1176,7 +1195,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitRepetetiveStatement(PascalParser.RepetetiveStatementContext ctx) {
-        System.out.println("visitRepetetiveStatement");
+    //    System.out.println("visitRepetetiveStatement");
         return visitChildren(ctx);
     }
 
@@ -1189,7 +1208,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitWhileStatement(PascalParser.WhileStatementContext ctx) {
-        System.out.println("visitWhileStatement");
+    //    System.out.println("visitWhileStatement");
         return visitChildren(ctx);
     }
 
@@ -1202,7 +1221,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitRepeatStatement(PascalParser.RepeatStatementContext ctx) {
-        System.out.println("visitRepeatStatement");
+    //    System.out.println("visitRepeatStatement");
         return visitChildren(ctx);
     }
 
@@ -1215,7 +1234,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitForStatement(PascalParser.ForStatementContext ctx) {
-        System.out.println("visitForStatement");
+    //    System.out.println("visitForStatement");
         return visitChildren(ctx);
     }
 
@@ -1228,7 +1247,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitForList(PascalParser.ForListContext ctx) {
-        System.out.println("visitForList");
+    //    System.out.println("visitForList");
         return visitChildren(ctx);
     }
 
@@ -1241,7 +1260,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitInitialValue(PascalParser.InitialValueContext ctx) {
-        System.out.println("visitInitialValue");
+    //    System.out.println("visitInitialValue");
         return visitChildren(ctx);
     }
 
@@ -1254,7 +1273,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitFinalValue(PascalParser.FinalValueContext ctx) {
-        System.out.println("visitFinalValue");
+    //    System.out.println("visitFinalValue");
         return visitChildren(ctx);
     }
 
@@ -1267,7 +1286,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitWithStatement(PascalParser.WithStatementContext ctx) {
-        System.out.println("visitWithStatement");
+    //    System.out.println("visitWithStatement");
         return visitChildren(ctx);
     }
 
@@ -1280,7 +1299,7 @@ public class PascalBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements
      */
     @Override
     public T visitRecordVariableList(PascalParser.RecordVariableListContext ctx) {
-        System.out.println("visitRecordVariableList");
+    //    System.out.println("visitRecordVariableList");
         return visitChildren(ctx);
     }
 

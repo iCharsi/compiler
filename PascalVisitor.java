@@ -1,4 +1,4 @@
-
+package pascal;// Generated from D:/home/compilers/src/main/resources\pascal.g4 by ANTLR 4.7
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**
